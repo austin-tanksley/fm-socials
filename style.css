@@ -17,6 +17,15 @@
     line-height: 150%;
     letter-spacing: 0px;
 }
+.text-2-Bold {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+#location{
+    color: var(--green);
+}
 body{
     background-color: var(--grey-900);
     height: 100vh;
@@ -70,4 +79,11 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+.attribution{
+    text-decoration: none;
+    color: var(--green);
+}
+.attribution a {
+    color: white;
 }
